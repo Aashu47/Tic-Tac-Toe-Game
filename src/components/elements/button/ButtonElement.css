@@ -1,0 +1,50 @@
+/* ButtonElement.css */
+.button-element {
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #ff3e6c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .button-element:hover {
+    background-color: #ff1f4e;
+  }
+  
+  @media (max-width: 1440px) {
+    .button-element {
+      padding: 9px 18px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .button-element {
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .button-element {
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .button-element {
+      padding: 7px 10px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button-element {
+      padding: 6px 8px;
+      font-size: 12px;
+    }
+  }
+  

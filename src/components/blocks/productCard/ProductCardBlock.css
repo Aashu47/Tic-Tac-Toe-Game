@@ -1,0 +1,103 @@
+.product-card-block {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px 16px;
+  transition: box-shadow 0.3s, transform 0.3s;
+  width: 380px;
+  height: 380px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect for the card */
+.product-card-block:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image container */
+.image-container {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Product Image */
+.product-image {
+  width: 300px;
+  height: 180px;
+  object-fit: contain;
+}
+
+/* Product Info Container */
+.product-info {
+  text-align: left;
+}
+
+/* Product Title */
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+/* Product Description */
+.product-description {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 1rem;
+  color: #ff5722;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Rating Container */
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Stars Container */
+.stars {
+  display: flex;
+  margin-right: 8px;
+}
+
+/* Star Icons */
+.star-icon {
+  color: #ffd700; /* Gold color for stars */
+  margin-right: 2px;
+}
+
+/* Rating Count */
+.rating-count {
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .product-card-block {
+    max-width: 100%;
+  }
+  .product-image {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card-block {
+    max-width: 100%;
+  }
+  .product-image {
+    height: 140px;
+  }
+}

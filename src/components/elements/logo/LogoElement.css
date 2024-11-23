@@ -1,0 +1,36 @@
+/* LogoElement.css */
+.logo-element img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  @media (max-width: 1440px) {
+    .logo-element img {
+      max-width: 130px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .logo-element img {
+      max-width: 120px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .logo-element img {
+      max-width: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo-element img {
+      max-width: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo-element img {
+      max-width: 60px;
+    }
+  }
+  

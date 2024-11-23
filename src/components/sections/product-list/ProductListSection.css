@@ -1,0 +1,42 @@
+/* ProductListSection.css */
+.product-list-section {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f9f5f3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1440px) {
+    .product-list-section {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .product-list-section {
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .product-list-section {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .product-list-section {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-list-section {
+      padding: 5px;
+    }
+  }
+  

@@ -1,0 +1,91 @@
+.header-block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    justify-content: space-around;
+    position: sticky;
+    box-sizing: border-box;
+    background-color: #2a2727;
+  }
+  .search-box{
+    width: 50vw;
+    border-radius: 30px;
+  }
+.header-buttons {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  } 
+
+.profile-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 18px;
+  z-index: 1000;
+}
+
+.profile-menu:hover .profile-dropdown {
+  display: block;
+}
+
+.profile-dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.profile-dropdown a:hover {
+  text-decoration: solid;
+  color: #f80439;
+  font: bolder;
+
+  
+} 
+
+  @media (max-width: 992px) {
+    .header-block {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-buttons {
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-block {
+      padding: 10px;
+    }
+  
+    .header-buttons {
+      gap: 5px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-block {
+      padding: 8px;
+    }
+  
+    .header-buttons {
+      gap: 3px;
+      font-size: 12px;
+    }
+  }
+  

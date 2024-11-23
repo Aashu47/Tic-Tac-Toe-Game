@@ -1,0 +1,39 @@
+/* InputElement.css */
+.input-element {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 1440px) {
+    .input-element {
+      width: 180px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .input-element {
+      width: 160px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .input-element {
+      width: 140px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .input-element {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .input-element {
+      padding: 6px;
+    }
+  }
+  

@@ -1,38 +1,15 @@
-.App {
-  text-align: center;
+/* Custom position for the toast container */
+.Toastify__toast-container {
+  top: 120px !important; /* Adjust vertical position */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Custom styles for the toast itself */
+.Toastify__toast {
+  background-color: #f2f9f2 !important;
+  padding: 16px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Custom styles for the close button */
+.Toastify__close-button {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
